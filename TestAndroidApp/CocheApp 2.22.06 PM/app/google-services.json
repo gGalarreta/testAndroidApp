@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "880816890460",
+    "firebase_url": "https://dasdasd-bf760.firebaseio.com",
+    "project_id": "dasdasd-bf760",
+    "storage_bucket": "dasdasd-bf760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880816890460:android:e60e88aba094fa06",
+        "android_client_info": {
+          "package_name": "com.example.gustavogalarreta.cocheapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880816890460-vvcpsebcsj7gkt7posvvdc0tpr23q4ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYoCcXOpaVfxQ7DKV6s11M7Am0iOtqNWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
