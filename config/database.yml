@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: <%= ENV['CLOTHE_API_DATABASE_HOSTNAME'] || 'localhost' %>
+  username: <%= ENV['CLOTHE_API_DATABASE_USERNAME'] || 'postgres' %>
+  password: <%= ENV['CLOTHE_API_DATABASE_PASSWORD'] %>
+  pool: <%= ENV['CLOTHE_API_DATABASE_POOL'] || 16 %>
+  port: <%= ENV['CLOTHE_API_DATABASE_PORT'] %>
+
+development:
+  <<: *default
+  database: clothe_development
+
+test:
+  <<: *default
+  database: clothe_test
+
+production:
+  <<: *default
